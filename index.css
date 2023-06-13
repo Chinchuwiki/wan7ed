@@ -1,0 +1,77 @@
+body {
+  background: rgb(0, 0, 0);
+  color: #fafafa;
+}
+
+body {
+  width: 100%;
+  height: 300px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#mainCarousel .carousel-inner img {
+  max-height: 80vh;
+  object-fit: contain;
+  filter: grayscale(50%);
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fafafa;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+.card-body,
+.historiap {
+  color: #fafafa;
+}
+
+#boot-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #fafafa;
+}
+
+#carouselExampleAutoplaying img,
+#miembros img {
+  cursor: pointer;
+}
+
+#contacto form input,
+#contacto form textarea {
+  color: #fafafa;
+}
+
+#footer {
+  height: 25%;
+}
+
+#footer #boot-icon {
+  font-size: 1.5rem;
+  color: #fafafa;
+}
+
+#cArcticMonkeys {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 0.8rem;
+}
