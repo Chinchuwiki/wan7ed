@@ -8,7 +8,7 @@ font-family: pubgFontFamily;
 }
 
 body {
-  background: rgb(80, 0, 80);
+  background: rgb(70, 0, 70);
   color: #fafafa;
 }
 
@@ -33,6 +33,10 @@ body::-webkit-scrollbar {
   font-size: 2rem;
 }
 
+#mainCarousel div p {
+  font-family: 'Roboto';
+}
+
 #mainCarousel .carousel-inner img {
   max-height: 80vh;
   object-fit: contain;
@@ -49,7 +53,7 @@ body::-webkit-scrollbar {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   color: #fafafa;
 }
 
