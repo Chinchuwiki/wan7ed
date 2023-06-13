@@ -1,5 +1,14 @@
+@font-face {
+  font-family: pubgFontFamily;
+  src: url(./Imagenes/Font/HeadlinerNo.45\ DEMO.ttf);
+}
+
+* {
+font-family: pubgFontFamily;
+}
+
 body {
-  background: rgb(0, 0, 0);
+  background: rgb(80, 0, 80);
   color: #fafafa;
 }
 
@@ -13,6 +22,15 @@ body {
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+#navbarPrincipal {
+  background-color: rgb(209, 0, 209);
+  padding: 0;
+}
+
+#navbar ul li a {
+  font-size: 2rem;
 }
 
 #mainCarousel .carousel-inner img {
