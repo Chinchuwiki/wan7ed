@@ -4,7 +4,7 @@
 }
 
 * {
-font-family: pubgFontFamily;
+  font-family: pubgFontFamily;
 }
 
 body {
@@ -38,7 +38,7 @@ body::-webkit-scrollbar {
 }
 
 #mainCarousel div p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 #mainCarousel .carousel-inner img {
@@ -68,15 +68,15 @@ body::-webkit-scrollbar {
 
 #historia .card {
   background-color: rgb(200, 0, 150);
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 #historia .card p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   color: #fafafa;
 }
 
-#miembros .card{
+#miembros .card {
   background-color: rgb(200, 0, 150);
 }
 
@@ -96,6 +96,12 @@ body::-webkit-scrollbar {
   cursor: pointer;
 }
 
+#contacto .container .mb-3 input,
+#contacto .container .mb-3 textarea,
+#contacto .container button {
+  background-color: rgb(200, 0, 150);
+}
+
 #contacto form input,
 #contacto form textarea {
   color: #fafafa;
@@ -103,6 +109,7 @@ body::-webkit-scrollbar {
 
 #footer {
   height: 25%;
+  background-color: rgb(200, 0, 150);
 }
 
 #footer #boot-icon {
@@ -113,5 +120,5 @@ body::-webkit-scrollbar {
 #cArcticMonkeys {
   text-decoration: none;
   color: #fafafa;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
