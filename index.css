@@ -25,7 +25,11 @@ body::-webkit-scrollbar {
 }
 
 #navbarPrincipal {
-  background-image: linear-gradient(to bottom, rgb(250, 0, 150), rgb(125, 0, 75));
+  background-image: linear-gradient(
+    to bottom,
+    rgb(250, 0, 150),
+    rgb(125, 0, 75)
+  );
   padding: 0;
 }
 
@@ -79,7 +83,11 @@ body::-webkit-scrollbar {
 }
 
 #historia .card {
-  background-image: linear-gradient(to bottom, rgb(200, 0, 150), rgb(125, 0, 75));
+  background-image: linear-gradient(
+    to bottom,
+    rgb(200, 0, 150),
+    rgb(125, 0, 75)
+  );
   font-family: "Roboto";
 }
 
@@ -89,7 +97,38 @@ body::-webkit-scrollbar {
 }
 
 #miembros .card {
-  background-image: linear-gradient(to bottom, rgb(250, 0, 150), rgb(125, 0, 75));
+  background-image: linear-gradient(
+    to bottom,
+    rgb(250, 0, 150),
+    rgb(125, 0, 75)
+  );
+}
+
+#modalMiembro {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(250, 0, 150),
+    rgb(125, 0, 75)
+  );
+}
+
+#tituloMiembro {
+  font-size: 3rem;
+}
+
+#fotoMiembro {
+  transform: scale(0.9);
+}
+
+#boot-icon {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: #fafafa;
+}
+
+#buttonCerrar {
+  background:  #fafafa;
+  color: rgb(125, 0, 75);
 }
 
 #figureCard {
@@ -98,17 +137,11 @@ body::-webkit-scrollbar {
 
 #figureCard:hover {
   box-shadow: 0 0 10px 10px #fafafa;
-  transform: scale(0.95)
+  transform: scale(0.95);
 }
 
 .card-body,
 .historiap {
-  color: #fafafa;
-}
-
-#boot-icon {
-  cursor: pointer;
-  font-size: 1.5rem;
   color: #fafafa;
 }
 
@@ -120,7 +153,11 @@ body::-webkit-scrollbar {
 #contacto .container .mb-3 input,
 #contacto .container .mb-3 textarea,
 #contacto .container button {
-  background-image: linear-gradient(to bottom, rgb(250, 0, 150), rgb(125, 0, 75));
+  background-image: linear-gradient(
+    to bottom,
+    rgb(250, 0, 150),
+    rgb(125, 0, 75)
+  );
   border: none;
 }
 
@@ -129,13 +166,17 @@ body::-webkit-scrollbar {
   color: #fafafa;
 }
 
-#contacto label{
+#contacto label {
   font-family: "Roboto";
 }
 
 #footer {
   height: 25%;
-  background-image: linear-gradient(to bottom, rgb(250, 0, 150), rgb(125, 0, 75));
+  background-image: linear-gradient(
+    to bottom,
+    rgb(250, 0, 150),
+    rgb(125, 0, 75)
+  );
 }
 
 #footer #boot-icon {

@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,7 +13,6 @@
   <link rel="icon" href="./Imagenes/logoIcon.ico">
   <title>WAN7ED</title>
 </head>
-
 <body data-bs-spy="scroll" data-bs-target="#navbar">
   <!-- Inicio del header -->
   <nav id="navbarPrincipal" class="navbar fixed-top navbar-expand-lg">
@@ -276,14 +274,14 @@
     aria-labelledby="miembroFotoLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-        <div class="modal-body">
-          <h1 class="modal-title fs-5 mb-3" id="tituloMiembro"></h1>
+        <div id="modalMiembro" class="modal-body">
+          <h1 class="modal-title mb-3" id="tituloMiembro"></h1>
           <img id="fotoMiembro" class="img-fluid">
           <a id="instagram" target="_blank">
             <span id="boot-icon" class="bi bi-instagram"></span>
           </a>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button id="buttonCerrar" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
