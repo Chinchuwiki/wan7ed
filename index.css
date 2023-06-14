@@ -41,6 +41,14 @@ body::-webkit-scrollbar {
   font-family: "Roboto";
 }
 
+#mainCarousel .overlay h1 {
+  font-size: 4rem;
+}
+
+.h2Title {
+  font-size: 3rem;
+}
+
 #mainCarousel .carousel-inner img {
   max-height: 90vh;
   object-fit: contain;
@@ -100,11 +108,16 @@ body::-webkit-scrollbar {
 #contacto .container .mb-3 textarea,
 #contacto .container button {
   background-color: rgb(200, 0, 150);
+  border: none;
 }
 
 #contacto form input,
 #contacto form textarea {
   color: #fafafa;
+}
+
+#contacto label{
+  font-family: "Roboto";
 }
 
 #footer {
