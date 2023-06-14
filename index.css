@@ -49,10 +49,14 @@ body::-webkit-scrollbar {
   font-size: 3rem;
 }
 
+.h3Title {
+  font-size: 2.5rem;
+}
+
 #mainCarousel .carousel-inner img {
   max-height: 90vh;
   object-fit: contain;
-  /* filter: grayscale(60%); */
+  filter: grayscale(70%);
 }
 
 #carousel {
@@ -86,6 +90,14 @@ body::-webkit-scrollbar {
 
 #miembros .card {
   background-color: rgb(200, 0, 150);
+}
+
+#AlexTurner {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+#AlexTurner:hover {
+  box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.5); /* Ajusta el valor de difuminado y el color según tus preferencias */
 }
 
 .card-body,
