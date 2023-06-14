@@ -25,7 +25,7 @@ body::-webkit-scrollbar {
 }
 
 #navbarPrincipal {
-  background-image: linear-gradient(to left, rgb(200, 0, 150), rgb(100, 0, 75));
+  background-image: linear-gradient(to bottom, rgb(200, 0, 150), rgb(125, 0, 75));
   padding: 0;
 }
 
@@ -79,7 +79,7 @@ body::-webkit-scrollbar {
 }
 
 #historia .card {
-  background-image: linear-gradient(to left, rgb(200, 0, 150), rgb(100, 0, 75));
+  background-image: linear-gradient(to bottom, rgb(200, 0, 150), rgb(125, 0, 75));
   font-family: "Roboto";
 }
 
@@ -89,12 +89,11 @@ body::-webkit-scrollbar {
 }
 
 #miembros .card {
-  /* background-color: rgb(200, 0, 150); */
-  background-image: linear-gradient(to left, rgb(200, 0, 150), rgb(100, 0, 75));
+  background-image: linear-gradient(to bottom, rgb(200, 0, 150), rgb(125, 0, 75));
 }
 
 #figureCard {
-  transition: box-shadow 0.3s ease-in-out, transform 0.03s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, transform 0.025s ease-in-out;
 }
 
 #figureCard:hover {
@@ -121,7 +120,7 @@ body::-webkit-scrollbar {
 #contacto .container .mb-3 input,
 #contacto .container .mb-3 textarea,
 #contacto .container button {
-  background-image: linear-gradient(to left, rgb(200, 0, 150), rgb(100, 0, 75));
+  background-image: linear-gradient(to bottom, rgb(200, 0, 150), rgb(125, 0, 75));
   border: none;
 }
 
@@ -136,7 +135,7 @@ body::-webkit-scrollbar {
 
 #footer {
   height: 25%;
-  background-image: linear-gradient(to left, rgb(200, 0, 150), rgb(100, 0, 75));
+  background-image: linear-gradient(to bottom, rgb(200, 0, 150), rgb(125, 0, 75));
 }
 
 #footer #boot-icon {
