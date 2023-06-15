@@ -16,8 +16,9 @@ function cambioMiembroFoto(id) {
     foto = "./Imagenes/miembro-WANTEDNIKOTESLA.png";
     instagram = "https://www.instagram.com/rochanico47/";
   } else if (id === "foto4") {
-    miembro = "Jamie Cook";
-    foto = "./Imagenes/miembro-jamie.jpg";
+    miembro = "Chinchuwiki";
+    foto = "./Imagenes/miembro-Chinchuwiki.png";
+    instagram = "https://www.instagram.com/gastonedgardorocha/";
   }
 
   let tituloMiembro = document.getElementById("tituloMiembro");
