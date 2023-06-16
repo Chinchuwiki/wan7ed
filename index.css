@@ -54,7 +54,7 @@ body::-webkit-scrollbar {
 }
 
 .h3Title {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 #mainCarousel .carousel-inner img {
@@ -112,21 +112,27 @@ body::-webkit-scrollbar {
   );
 }
 
+#modalMiembro p {
+  font-family: "Roboto";
+}
+
 #tituloMiembro {
   font-size: 3rem;
 }
 
-#fotoMiembro {
-  transform: scale(0.9);
-}
+/* #fotoMiembro {
+  transform: scale(0.);
+} */
 
 #boot-icon {
+  margin-left: 1rem;
   cursor: pointer;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #fafafa;
 }
 
 #buttonCerrar {
+  margin-left: 5rem;
   background:  #fafafa;
   color: rgb(125, 0, 75);
 }

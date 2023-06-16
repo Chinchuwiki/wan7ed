@@ -143,7 +143,11 @@
             <img src="./Imagenes/miembro-M7CRISR13.png" class="card-img-top" alt="Alex Turner" data-bs-toggle="modal"
               data-bs-target="#miembroFoto" onclick="cambioMiembroFoto('foto1')">
             <div class="card-body">
-              <h3 class="card-title text-center h3Title">M7 CRISR13</h3>
+              <p class="card-title text-center h3Title">M7 CRISR13
+                <a id="instagram" href="https://www.instagram.com/cristian_rocha95/" target="_blank">
+                  <span id="boot-icon" class="bi bi-instagram"></span>
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -153,7 +157,11 @@
             <img src="./Imagenes/miembro-M7Ayato98.png" class="card-img-top" alt="Matt Helders" data-bs-toggle="modal"
               data-bs-target="#miembroFoto" onclick="cambioMiembroFoto('foto2')">
             <div class="card-body">
-              <h3 class="card-title text-center h3Title">M7 Ayato98</h3>
+              <h3 class="card-title text-center h3Title">M7 Ayato98
+                <a id="instagram" href="https://www.instagram.com/diego_karaben/" target="_blank">
+                  <span id="boot-icon" class="bi bi-instagram"></span>
+                </a>
+              </h3>
             </div>
           </div>
         </div>
@@ -163,7 +171,11 @@
             <img src="./Imagenes/miembro-WANTEDNIKOTESLA.png" class="card-img-top" alt="Nick O'Malley"
               data-bs-toggle="modal" data-bs-target="#miembroFoto" onclick="cambioMiembroFoto('foto3')">
             <div class="card-body">
-              <h3 class="card-title text-center h3Title">WANTED_NIKOTESLA</h3>
+              <h3 class="card-title text-center h3Title">WANTED_NIKOTESLA
+                <a id="instagram" href="https://www.instagram.com/rochanico47/" target="_blank">
+                  <span id="boot-icon" class="bi bi-instagram"></span>
+                </a>
+              </h3>
             </div>
           </div>
         </div>
@@ -173,7 +185,11 @@
             <img src="./Imagenes/miembro-Chinchuwiki.png" class="card-img-top" alt="Jamie Cook" data-bs-toggle="modal"
               data-bs-target="#miembroFoto" onclick="cambioMiembroFoto('foto4')">
             <div class="card-body">
-              <h3 class="card-title text-center h3Title">Chinchuwiki</h3>
+              <h3 class="card-title text-center h3Title">Chinchuwiki
+                <a id="instagram" href="https://www.instagram.com/gastonedgardorocha/" target="_blank">
+                  <span id="boot-icon" class="bi bi-instagram"></span>
+                </a>
+              </h3>
             </div>
           </div>
         </div>
@@ -270,12 +286,23 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div id="modalMiembro" class="modal-body">
-          <h1 class="modal-title mb-3" id="tituloMiembro"></h1>
-          <img id="fotoMiembro" class="img-fluid">
-          <a id="instagram" target="_blank">
-            <span id="boot-icon" class="bi bi-instagram"></span>
-          </a>
+          <h1 class="modal-title text-center">Season 24 : Estadisticas</h1>
+          <div class="row mt-4 mb-4">
+            <div class="col-6 text-start">
+              <p>Partidas ganadas: </p>
+              <p>Kills: </p>
+              <p>Round Most Kills: </p>
+              <p>Headshot Kills: </p>
+              <p>Daño total: </p>
+              <p>Partidas jugadas: </p>
+              <p>Vehiculos destruidos: </p>
+            </div>
+            <div class="col-6">
+              <img id="fotoMiembro" class="img-fluid mt-5">
+            </div>
+          </div>
           <div class="modal-footer">
+            <h3 class="modal-title text-center h3Title" id="tituloMiembro"></h3>
             <button id="buttonCerrar" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
           </div>
         </div>
