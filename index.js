@@ -48,7 +48,7 @@ function cambioMiembroFoto(id, account) {
 
       // Actualizar los valores en el modal
       statsContainer.innerHTML = `
-          <div class="col-6 text-start">
+          <div>
             <p>Partidas ganadas: ${wins}</p>
             <p>Kills: ${kills}</p>
             <p>Round Most Kills: ${roundMostKills}</p>
