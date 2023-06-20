@@ -17,13 +17,12 @@ function cambioMiembroFoto(id, account) {
     foto = "./Imagenes/miembro-Chinchuwiki.png";
     account = "account.9d880c22cff144748083da90ffd2896a";
   } else if (id === "foto5") {
-    foto = "./Imagenes/miembro-Chinchuwiki.png";
+    foto = "./Imagenes/miembro-WANTEDFURIOUS.png";
     account = "account.be33e06d123b410ca42002e3cb11fb42";
   }
 
   fotoMiembro.src = foto;
 
-  // Realizar la petición GET
   fetch(
     `https://api.pubg.com/shards/steam/players/${account}/seasons/division.bro.official.pc-2018-24`,
     {
@@ -46,7 +45,6 @@ function cambioMiembroFoto(id, account) {
       const headshotKills = squadStats.headshotKills;
       const damageDealt = squadStats.damageDealt;
 
-      // Actualizar los valores en el modal
       statsContainer.innerHTML = `
           <div>
             <p>Partidas ganadas: ${wins}</p>
