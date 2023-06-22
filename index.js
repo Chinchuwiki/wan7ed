@@ -22,6 +22,9 @@ function cambioMiembroFoto(id, account) {
   }else if (id === "foto6") {
     foto = "./Imagenes/miembro-D-4-I-A-N.png";
     account = "account.37f83335c41f48168e7771a53247e7bf";
+  }else if (id === "foto7") {
+    foto = "./Imagenes/miembro-WANTED_ariel.png";
+    account = "account.f9ef1e46b9ba42caaeaacae786500698";
   }
 
 
