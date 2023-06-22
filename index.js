@@ -19,7 +19,11 @@ function cambioMiembroFoto(id, account) {
   } else if (id === "foto5") {
     foto = "./Imagenes/miembro-WANTEDFURIOUS.png";
     account = "account.be33e06d123b410ca42002e3cb11fb42";
+  }else if (id === "foto6") {
+    foto = "./Imagenes/miembro-D-4-I-A-N.png";
+    account = "account.37f83335c41f48168e7771a53247e7bf";
   }
+
 
   fotoMiembro.src = foto;
 
